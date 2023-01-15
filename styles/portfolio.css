@@ -22,9 +22,9 @@ nav ul {
     background-color: #FFF8F3;
     width: 1600px;
     height: 837px;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, left;
     background-size: 1036px 518px 768px 319px;
 }
 
@@ -52,7 +52,7 @@ nav li {
 }
 
 .banner {
-    margin: 0px 200px;
+    margin: 0px 230px;
     width: 585px;
     height: 356px;
     display: flex;
@@ -102,5 +102,313 @@ nav li {
 
 .img {
     margin-left: 163px;
-   margin-top: 270px;
+    margin-top: 290px;
+}
+
+/* about section */
+.about {
+    width: 1140px;
+    height: 550px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    margin-top: 160px;
+    /* margin-bottom: 100px; */
+    margin-left: 170px;
+    margin-right: 290px;
+    /* padding: 130px 150px; */
+}
+
+.about-info-container {
+    display: flex;
+    text-align: center;
+    padding-left: 241px;
+    padding-right: 117px;
+    width: 782px;
+    height: 60px;
+    left: 409px;
+    top: 1326px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    padding-left: 218px;
+    padding-right: 95px;
+    padding-bottom: 30px;
+}
+
+.about-info {
+    text-align: center;
+    padding-right: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.info-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #474747;
+}
+
+/* what i do section */
+.what-i-do .section-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #757575;
+    width: 909px;
+    height: 90px;
+    left: 345px;
+    top: 1725px;
+    margin-bottom: 50px;
+}
+
+/* skill section */
+.skill {
+    display: flex;
+    margin-left: 200px;
+
+}
+
+.skill-content {
+    width: 267px;
+    height: 377px;
+    left: 230px;
+    top: 1865px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-right: 24px;
+    margin-bottom: 140px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    /* text-align: center; */
+    color: #181818;
+    padding-left: 30px;
+    /* padding-bottom: 20px; */
+    padding-right: 60px;
+    width: 174px;
+    height: 27px;
+}
+
+.description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding: 30px;
+}
+
+.mn {
+    padding: 30px 195px 30px 30px;
+}
+
+/* resume-section */
+.resume-content {
+    display: flex;
+    align-items: center;
+}
+
+.resume-title1 {
+    width: 203px;
+    height: 41px;
+    left: 230px;
+    top: 2533px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    margin-left: 230px;
+    margin-right: 371px;
+    margin-bottom: 0px;
+
+}
+
+.resume-item1 {
+    margin-left: 230px;
+    margin-right: 71px;
+    margin-bottom: 50px;
+    /* width: 511px;
+    height: 175px;
+    left: 230px;
+    top: 2604px; */
+}
+
+.resume-title2 {
+    width: 203px;
+    height: 41px;
+    left: 230px;
+    top: 2533px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    /* margin-right: 570px; */
+}
+
+.resume-item2 {
+    /* width: 511px;
+    height: 175px;
+    left: 230px;
+    top: 2604px; */
+    margin-bottom: 50px;
+}
+
+.resume .title {
+    /* width: 405px;
+    height: 34px;
+    left: 230px;
+    top: 2604px;
+    font-family: 'Open Sans';
+    font-style: normal; */
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.resume .sub-title {
+    /* width: 309px;
+    height: 27px;
+    left: 230px;
+    top: 2648px;
+    font-family: 'Open Sans';
+    font-style: normal; */
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume .resume-description {
+    /* width: 511px;
+    height: 84px;
+    left: 230px;
+    top: 2695px;
+    font-family: 'Open Sans';
+    font-style: normal; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resume .primary-btn {
+    margin-left: 700px;
+    margin-bottom: 110px;
+
+}
+
+.footer-item {
+    display: flex;
+    width: 1600px;
+    height: 780px;
+    left: 0px;
+    top: 3476px;
+    background: #FFF8F3;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    margin-left: 230px;
+    margin-top: 130px;
+    color: #181818;
+}
+
+.footer-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    width: 562px;
+    height: 56px;
+    left: 230px;
+    top: 3674px;
+    margin-left: 230px;
+}
+
+.photo {
+    margin-left: 230px;
+}
+
+.message {
+    margin-left: 180px;
+    margin-top: 130px;
+    margin-right: 400px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+}
+
+.name {
+    margin-left: 220px;
+    margin-right: 230px;
+    width: 461px;
+    height: 64px;
+    left: 909px;
+    top: 3682px;
+    margin-bottom: 24px;
+}
+
+.email {
+    margin-left: 220px;
+    margin-right: 230px;
+    width: 461px;
+    height: 64px;
+    left: 909px;
+    top: 3770px;
+    margin-bottom: 24px;
+}
+.txtarea{
+    margin-left: 220px;
+    margin-right: 230px;
+    margin-bottom: 24px;
+}
+button{
+    margin-left: 220px;
 }
