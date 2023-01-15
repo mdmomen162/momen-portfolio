@@ -32,6 +32,11 @@ nav li {
     list-style: none;
     margin: 50px;
 }
+.center{
+    margin-left: 200px;
+    margin-top: 300px;
+
+}
 
 .primary-btn {
     background-color: #FD6E0A;
@@ -375,7 +380,7 @@ nav li {
 }
 
 .message {
-    margin-left: 180px;
+    margin-left: 0px;
     margin-top: 130px;
     margin-right: 400px;
     font-weight: 700;
@@ -386,8 +391,8 @@ nav li {
 }
 
 .name {
-    margin-left: 220px;
-    margin-right: 230px;
+    margin-left: 120px;
+    margin-right: 330px;
     width: 461px;
     height: 64px;
     left: 909px;
@@ -396,8 +401,8 @@ nav li {
 }
 
 .email {
-    margin-left: 220px;
-    margin-right: 230px;
+    margin-left: 120px;
+    margin-right: 330px;
     width: 461px;
     height: 64px;
     left: 909px;
@@ -405,10 +410,10 @@ nav li {
     margin-bottom: 24px;
 }
 .txtarea{
-    margin-left: 220px;
-    margin-right: 230px;
+    margin-left: 120px;
+    margin-right: 330px;
     margin-bottom: 24px;
 }
 button{
-    margin-left: 220px;
+    margin-left: 120px;
 }
